@@ -1,6 +1,6 @@
 #3.0.3
 
-def cuenta(palabra,letra):
+def cuenta(palabra:str,letra:str) -> int:
     contador = 0
     for ltra in palabra:
         if ltra == letra:

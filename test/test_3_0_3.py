@@ -4,7 +4,7 @@ from src.E_3_0_3 import *
 @pytest.mark.parametrize(
     "input_x,input_y,expected",
     [
-        ("hola",1)
+        ("hola","a",1)
     ]
 )
 
